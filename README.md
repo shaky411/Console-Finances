@@ -47,9 +47,9 @@ N/A
 
 To see the results of the code, go to the following site and open the console. I reccomend using Google Chrome as it comes pre-built with developer tools. To open the console, right click anywhere on the browser window and select `inspect` then click on `console`.
 
-Please click on the following link to see my finished portfolio webpage.
+Please click on the following link to see view my console-finances web page.
 
-https://shaky411.github.io/Bootstrap-Portfolio/
+https://shaky411.github.io/Console-Finances
 
 
 ## Screenshots
