@@ -123,6 +123,7 @@ You are required to submit BOTH of the following for review:
 
   let totalMonths = finances.length
 
+Done
 
 
 
@@ -133,9 +134,24 @@ You are required to submit BOTH of the following for review:
   // for loop to iterate over the array
     // Inside that for loop, access position 1 of each array element to get the numbers
 
+Done
+
+
+
 // The average of the changes in Profit / Losses over the entire period.
-// You will need to track what the total change in profits are from month to month and then find the average.
+
+
+WORKING ON THIS
+// You will need to track what the total change in profits are from month to month
+
+
+ then find the average.
 // (Total / Number of months)
+
+
+
+
+
 
 // The greatest increase in profits(date and amount) over the entire period.
 

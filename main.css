@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;400&family=Mulish&family=Nunito+Sans&family=Open+Sans&display=swap');
+
+
+/* Page reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Chivo Mono', monospace;
+}
+
+/* Setup color variables */
+
+:root {
+    --accent-color: #1B355B;
+    --text-color: white;
+    --textHover-color: black;
+    --hover-color: #EC3C95;
+
+}
+
+
+body {
+    background-color: #F5F7F9;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+header h1 {
+    background-color: #EBEFF3;
+    color: var(--accent-color);
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    font-size: large;
+    border: 2px solid black;
+    margin-right: 0px;
+    transition: 1s ease-in-out;
+    /* transition: transform .8s ease-in-out; */
+}
+
+header h1 i {
+    font-size: 40px;
+    color: var(--accent-color);
+}
+
+header h1:hover {
+    background-color: var(--accent-color);
+    color: white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+    border: 2px solid var(--hover-color);
+    /* transform: rotate(360deg); */
+    /* transition: all 1s ease-in; */
+    /* transition: 0.5s ease-out; */
+    font-size:x-large;
+}
+
+h1 {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+p {
+    padding: 10px;
+}
+
+h1 i {
+    margin-top: 10px;
+}
