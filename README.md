@@ -1,10 +1,8 @@
-# Challenge 3 - Bootstrap Portfolio
-
-## This is challenge 3 of the Front End Developer Bootcamp course.
+# Console Finances
 
 ## The Task:
 
-*This is challenge 3 of the front end developer bootcamp. Our task in this challenge is to re-create our portfolio page from challenge 2, using the Bootstrap CSS framework.
+*I have been tasked with creating code for analyzing the financial records of a company.
 
 **Instructions:**
 
@@ -46,6 +44,8 @@ List out the skills you expect to learn from the bootcamp.
 N/A
 
 ## Usage
+
+To see the results of the code, go to the following site and open the console. I reccomend using Google Chrome as it comes pre-built with developer tools. To open the console, right click anywhere on the browser window and select `inspect` then click on `console`.
 
 Please click on the following link to see my finished portfolio webpage.
 
