@@ -6,9 +6,13 @@
 
 **Instructions:**
 
-* Create a new Github repository and name it `Bootstrap-Portfolio`
-* Clone this repository to your computer
-* Inside your `Bootstrap-Portfolio` repo, create the folder structure for the webpage.
+1. Create a new GitHub repo called `Console-Finances`. Then, clone it to your computer.
+
+2. Copy the starter files in your local git repository.
+   
+I have been given a dataset composed of arrays with two fields, Date and Profit/Losses.
+
+My task is to write JavaScript code that analyzes the records to calculate each of the following:
 
 ## Installation
 
@@ -25,11 +29,9 @@ https://shaky411.github.io/Console-Finances
 
 ## Screenshots
 
-![Alt text](images/Screenshots/SS01.jpeg)
+![Alt text](Images/CF_SC01.png)
 
-![Alt text](images/Screenshots/SS02.jpeg)
-
-![Alt text](images/Screenshots/SS03.png)
+![Alt text](Images/CF_SC02.png)
 
 ## Credits
 
