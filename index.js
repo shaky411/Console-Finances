@@ -89,14 +89,11 @@ let finances = [
 
 
 let totalMonths = finances.length
+let totalValue = finances[0][1];
 
 let profitLoss = 0
 let dates = []
 let changes = [0]
-
-
-
-
 
 let highestChange
 let lowestChange
@@ -115,19 +112,18 @@ let lowestChange
             const [lastDate, lastAmount] = lastMonthlyFinance
             // profitLoss = profitLoss + amount
             changes.push(amount - lastAmount)
-
-
         }
         
-        
         // dates.push(date)
-        
     }
     
-    console.log("The total number of months recorded is: " + totalMonths)
-    console.log("The total profit/loss for this period is: " + profitLoss)
+    console.log("Financial Analysis");
+    console.log("============================");
+    console.log("Total Months: " + totalMonths);
+    console.log("Total: " + totalValue);
+    console.log("The total profit/loss for this period is: " + profitLoss);
 
-
+// dfgdfgdfgdsfgdsfg
 
     
     // console.log("The average change in profit/loss over the entire period is: " + changes)
@@ -173,3 +169,20 @@ let lowestChange
 
 //     }
 // }
+
+// ======================================================================
+
+
+// This is what we just done with Dane
+
+
+// let total = 0;
+// let average = 0;
+
+// for (let i = 0; i < finances.length; i++) {
+//     const month = finances[i];
+//     total += month[1]
+    
+// }
+
+// console.log("sdfsdfsdf " + total)
