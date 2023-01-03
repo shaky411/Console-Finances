@@ -101,7 +101,7 @@ let lowestChange
 
     for (let i = 0; i < totalMonths; i++) {
 
-        // this is taking the 1th index from the inner array
+        
         const monthlyFinance = finances[i];
         const [date, amount] = monthlyFinance
 
@@ -122,8 +122,9 @@ let lowestChange
     console.log("Total Months: " + totalMonths);
     console.log("Total: " + totalValue);
     console.log("The total profit/loss for this period is: " + profitLoss);
+    console.log("The average change in Profit/Losss over the entire period is: " + totalValue/totalMonths);
 
-// dfgdfgdfgdsfgdsfg
+
 
     
     // console.log("The average change in profit/loss over the entire period is: " + changes)
@@ -153,24 +154,7 @@ let lowestChange
 // }
 
 
-
-
-
-
-// var animals = ["chickens", "pigs", "cows", "horses", "ostriches"];
-
-// for (let i = 0; i < animals.length; i++) {
-//     const animal = animals[i];
-
-
-//     if (animal[1] === "h" || animal[1] === "s") {
-
-//         console.log(animal + " second character contains the letter 'h' or 's' ")
-
-//     }
-// }
-
-// ======================================================================
+// =============================================================
 
 
 // This is what we just done with Dane
