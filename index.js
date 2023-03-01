@@ -102,13 +102,20 @@ console.log("Total Months: " + totalMonths);
 
 // split the date and amount columns
 for (let i = 0; i < finances.length; i++) {
-  const [date, amount] = finances[i];
+  // const [date, amount] = finances[i];
 
   profitLoss += finances[i][1];
 
   // push the values to a new array
-  amountArray.push(amount);
+  
   // push the dates to a new array
+  
+}
+
+for (let i = finances.length - 1; i >= 0; i--) {
+  const [date, amount] = finances[i];
+
+  amountArray.push(amount);
   dateArray.push(date);
 }
 
@@ -121,15 +128,15 @@ for (let i = 0; i < finances.length - 1; i++) {
 
 let averageProfitLoss = totalAverageChange / averageChange.length;
 
-let biggestProfit = Math.max(...amountArray);
-let smallestProfit = Math.min(...amountArray);
+let biggestProfit = Math.max(...averageChange);
+let smallestProfit = Math.min(...averageChange);
 
 // Dates are not dynamic, thes need to be worked on!
-let biggestProfitDate = dateArray[25];
-let smallestProfitDate = dateArray[44];
+let biggestProfitDate = dateArray[60];
+let smallestProfitDate = dateArray[41];
 
 console.log("The net total profit/loss is: " + "£" + profitLoss);
-console.log("Average change: " + "£" + averageProfitLoss.toFixed(2))
+console.log("Average change: " + averageProfitLoss.toFixed(2))
 console.log("Greatest increase in profits: " + biggestProfitDate + "(£" + biggestProfit + ")")
 console.log("Greatest decrease in profits: " + smallestProfitDate + "(£" + smallestProfit + ")")
 
