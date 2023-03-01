@@ -102,13 +102,17 @@ console.log("Total Months: " + totalMonths);
 
 // split the date and amount columns
 for (let i = 0; i < finances.length; i++) {
+  // const [date, amount] = finances[i];
 
   profitLoss += finances[i][1];
+
+  // push the values to a new array
+  
+  // push the dates to a new array
   
 }
 
 for (let i = finances.length - 1; i >= 0; i--) {
-  // seperate dates and amounts
   const [date, amount] = finances[i];
 
   amountArray.push(amount);
@@ -132,9 +136,9 @@ let biggestProfitDate = dateArray[60];
 let smallestProfitDate = dateArray[41];
 
 console.log("The net total profit/loss is: " + "£" + profitLoss);
-console.log("Average Change: " + averageProfitLoss.toFixed(2))
-console.log("Greatest Increase in Profits: " + biggestProfitDate + "(£" + biggestProfit + ")")
-console.log("Greatest Decrease in Profits: " + smallestProfitDate + "(£" + smallestProfit + ")")
+console.log("Average change: " + averageProfitLoss.toFixed(2))
+console.log("Greatest increase in profits: " + biggestProfitDate + "(£" + biggestProfit + ")")
+console.log("Greatest decrease in profits: " + smallestProfitDate + "(£" + smallestProfit + ")")
 
 
 // Your task is to write JavaScript code that analyzes the records to calculate each of the following:
