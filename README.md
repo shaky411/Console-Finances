@@ -29,9 +29,9 @@ https://shaky411.github.io/Console-Finances
 
 ## Screenshots
 
-![Alt text](Images/SCR-20230301-99l.png)
+![Alt text](Images/SCR-20230301-cw3.png)
 
-![Alt text](Images/SCR-20230301-99p.png)
+![Alt text](Images/SCR-20230301-cw7.png)
 
 ## Credits
 
